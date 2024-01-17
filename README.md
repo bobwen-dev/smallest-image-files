@@ -6,7 +6,7 @@ The purpose of this project is to find the smallest image file in various format
 <img src="data:image/jxl;base64,/wr6HwGRCAYBAFAASzhB5k11/Ia1kyog0AHeH0nCAVw">
 ```
 
-Feel free to give me the smaller size files :)
+Feel free to commit the smaller size files :)
 
 ## avif
 
