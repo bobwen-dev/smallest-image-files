@@ -52,6 +52,19 @@ iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQI12NoAAAAggCB3UNq9AAAAABJ
 
 Length: `67` bytes.
 
+## svg
+
+```html
+<svg xmlns='http://www.w3.org/2000/svg'></svg>
+```
+Length: `46` bytes.
+
+svg file can get smaller data URI:
+
+```html
+<img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'%3e%3c/svg%3e">
+```
+
 ## webp
 
 ```base64
