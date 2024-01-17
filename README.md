@@ -13,12 +13,10 @@ I created a 1x1 grey image using gimp and got this 288 bytes "nearly lossless" a
 ## gif
 
 ```base64
-R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+R0lGODdhAQABAIABAICAgP///ywAAAAAAQABAAACAkQBADs
 ```
 
-Length: `42` bytes.
-
-Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
+Length: `35` bytes.
 
 ## jpeg
 
@@ -43,19 +41,15 @@ Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest
 ## png
 
 ```base64
-iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQI12NoAAAAggCB3UNq9AAAAABJRU5ErkJggg
 ```
 
-Length: `68` bytes.
-
-Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
+Length: `67` bytes.
 
 ## webp
 
 ```base64
-UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA
+UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAdQwAIWsP+BiOh/AAA
 ```
 
-Length: `42` bytes.
-
-Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
+Length: `38` bytes.
