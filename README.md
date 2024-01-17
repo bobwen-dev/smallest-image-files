@@ -1,5 +1,11 @@
 # Smallest valid image files
 
+The purpose of this project is to find the smallest image file in various formats, which you can easily use as the default src value in the page before the img loads:
+
+```html
+<img src="data:image/jxl;base64,/wr6HwGRCAYBAFAASzhB5k11/Ia1kyog0AHeH0nCAVw">
+```
+
 ## avif
 
 ```base64
