@@ -34,7 +34,7 @@ Length: `35` bytes.
 
 Length: `134` bytes.
 
-Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
+From: [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
 
 ## jxl
 
@@ -44,7 +44,7 @@ Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest
 
 Length: `32` bytes.
 
-Taken from [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
+From: [stackoverflow](https://stackoverflow.com/questions/70033579/smallest-valid-base64-avif-image/77829744)
 
 ## png
 
@@ -53,6 +53,21 @@ iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQI12NoAAAAggCB3UNq9AAAAABJ
 ```
 
 Length: `67` bytes.
+
+## pdf
+
+```base64
+JVBERi0xLg10cmFpbGVyPDwvUm9vdDw8L1BhZ2VzPDwvS2lkc1s8PC9NZWRpYUJveFswIDAgMyAzXT4+XT4+Pj4+Pg
+```
+Length: `67` bytes.
+
+pdf is not image file and need to be rendered in an iframe
+
+```html
+<iframe src="data:application/pdf,JVBERi0xLg10cmFpbGVyPDwvUm9vdDw8L1BhZ2VzPDwvS2lkc1s8PC9NZWRpYUJveFswIDAgMyAzXT4+XT4+Pj4+Pg">
+```
+
+From: [stackoverflow](https://stackoverflow.com/questions/17279712/what-is-the-smallest-possible-valid-pdf)
 
 ## svg
 
